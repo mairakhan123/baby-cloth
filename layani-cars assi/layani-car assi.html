@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+   <!-- <script src="js/bootstrap.min.js"></script> -->
+   <style>
+     body{
+       /* background:url(images/890575cpy.jpg); */
+       background-attachment: fixed;
+       background-repeat:no-repeat;
+       /* width:100vw;
+       height: 100vh; */
+     }
+     
+      
+      .navbar-nav{
+        /* border:2px solid black; */
+        /* width:30% ; */
+        border-radius: 25px;
+        padding: 0% 5%;
+        font: 1em sans-serif;
+        box-shadow: 3px 3px 3px rgb(58,58,58);
+      }
+      
+      .searchbox{
+        margin: 0 20% !important;
+      }
+      .navbar-toggler-icon,
+      .navbar-toggler{
+        border: none !important;
+        outline: none !important;
+      }
+      .cards{
+        border:3px solid black;
+        height:200px ;
+        width: auto;
+       padding: 6px;
+      }
+    .card-header{
+      background-color: rgba(128, 128, 128, 0.609);
+    }
+    .card-footer{
+      background-color: rgba(128, 128, 128, 0.609);
+    }
+    footer{
+      background-color: rgb(47, 47, 47);
+      text-align: center;
+      color:white;
+      height: 200px;
+    }
+   
+    </style>
+</head>
+<body>
+  <header>
+  <div class="container-fluid my-3">
+
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark justify-content-center">
+         <!-------- Brand/logo -->
+           <a class="navbar-brand" href="#">
+            <img src="images/layani 555.PNG" alt="logo" style="width:70%">
+          </a> 
+
+
+          <div class="searchbox ">
+            <form class="form-inline" action="/action_page.php">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+          
+
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+           <span class="navbar-toggler-icon"></span>
+          </button>
+           <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+          
+      <ul class="navbar-nav justify-content-center ">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+      
+      </ul>
+      </div>
+     </nav>
+</header>
+
+<div class="container-fluid">
+  <div class="col-12">
+      <div class="row">
+          <div class="col-12 col-lg-4">
+              <div class="card">
+                  <div class="card-header">
+                    <h4>Toyota Corolla</h4>
+                  </div>
+                  <div class="card-body">
+                    <img src="images/Honda_Civic.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <span>PKR 25.2 - 39.0 lacs</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4">
+              <div class="card">
+                  <div class="card-header">
+                    <h4>Suzuki Alto</h4>
+                  </div>
+                  <div class="card-body">
+                    <img src="images/alto.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <span>PKR 12.0 - 16.3 lacs</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4">
+              <div class="card">
+                  <div class="card-header">
+                    <h4>Suzuki Cultus </h4>
+                  </div>
+                  <div class="card-body">
+                    <img src="images/Suzuki_Cultus.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <span>PKR 17.8 - 20.3 lacs</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4">
+              <div class="card">
+                  <div class="card-header">
+                    <h4>Honda City </h4>
+                  </div>
+                  <div class="card-body">
+                    <img src="images/city.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <span>PKR 24.5 - 28.6 lacs</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4">
+              <div class="card">
+                  <div class="card-header">
+                    <h4>Toyota Corolla </h4>
+                  </div>
+                  <div class="card-body">
+                    <img src="images/Toyota_Corolla.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <span>PKR 25.2 - 39.0 lacs</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4">
+              <div class="card">
+                  <div class="card-header">
+                    <h4>FAW V2</h4>
+                  </div>
+                  <div class="card-body">
+                    <img src="images/v2.jpg" alt="">
+                  </div>
+                  <div class="card-footer">
+                    <span>PKR 16.1 - 16.1 lacs</span>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                  <h4>Suzuki Wagon R </h4>
+                </div>
+                <div class="card-body">
+                  <img src="images/wagon-r.jpg" alt="">
+                </div>
+                <div class="card-footer">
+                  <span>PKR 16.4 - 18.9 lacs</span>
+                </div>
+            </div>
+        </div>
+      </div>
+  </div>
+</div>
+<footer>
+  <div class="container-fluid">
+    &copy;Aptech2020
+ 
+  </div>
+</footer>
+    
+
+  
+   
+    
+</body>
+</html>
